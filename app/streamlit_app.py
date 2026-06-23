@@ -132,7 +132,8 @@ if ask_button and question:
                 # Answer box
                 st.subheader("💬 Answer")
                 st.markdown(
-                    f'<div style="background:#f0f2f6;padding:1.2rem;border-radius:8px;border-left:4px solid #1f77b4">'
+                    f'<div style="background:#1e3a5f;color:#ffffff;padding:1.4rem;border-radius:8px;'
+                    f'border-left:5px solid #4da6ff;font-size:1rem;line-height:1.7;">'
                     f'{data["answer"]}'
                     f'</div>',
                     unsafe_allow_html=True
